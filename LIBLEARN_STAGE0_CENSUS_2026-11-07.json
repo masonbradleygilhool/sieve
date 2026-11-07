@@ -1,0 +1,241 @@
+{
+ "instrument": "LIBLEARN Stage-0 census (design paper SS3.0)",
+ "population": "pool B: 938 ARC-AGI-2 training tasks (gauntlet/pools.json B_agi2_train_fresh), train pairs only",
+ "validations": {
+  "searched_pass_stored": 921,
+  "modal_pass_reaggregated": 808,
+  "tasks_with_consistent_pair": 869,
+  "modal_modal_functional": 762
+ },
+ "fit_bound": {
+  "A_searched_param_bound_reference": [
+   921,
+   0.9819
+  ],
+  "B_functional_glyph_on": [
+   852,
+   0.9083
+  ],
+  "C_functional_glyph_off_HEADLINE": [
+   852,
+   0.9083
+  ],
+  "D_functional_const_off_glyph_on": [
+   848,
+   0.9041
+  ],
+  "E_functional_const_off_glyph_off": [
+   848,
+   0.9041
+  ],
+  "F_nonfunctional_glyph_off_reference": [
+   921,
+   0.9819
+  ]
+ },
+ "fit_bound_headline": "C_functional_glyph_off_HEADLINE",
+ "bar_fit_bound": 0.9,
+ "U_census": {
+  "population_n": 28,
+  "determined_fail_n": 12,
+  "determined_fail_tids": [
+   "1d61978c",
+   "1fad071e",
+   "67b4a34d",
+   "aabf363d",
+   "bd283c4a",
+   "be03b35f",
+   "c909285e",
+   "caa06a1f",
+   "d9fac9be",
+   "e45ef808",
+   "e4888269",
+   "ecaa0ec1"
+  ],
+  "undecided_n": 16,
+  "undecided_tids": [
+   "20818e16",
+   "29c11459",
+   "320afe60",
+   "45737921",
+   "5a719d11",
+   "6430c8c4",
+   "66e6c45b",
+   "67636eac",
+   "8e301a54",
+   "ac6f9922",
+   "ad38a9d0",
+   "b0c4d837",
+   "b2bc3ffd",
+   "c6e1b8da",
+   "ce4f8723",
+   "e21a174a"
+  ],
+  "unanimous_correct_tids": [
+   "ad38a9d0"
+  ],
+  "U_conservative_undecided_against": 0.0,
+  "U_determined_only": 0.0,
+  "U_ceiling_all_undecided_convert": 0.5714,
+  "products": {
+   "F_headline_x_U_ceiling": 0.519,
+   "F_param_bound_0.982_x_U_ceiling": 0.561,
+   "F_1.0_x_U_ceiling": 0.5714,
+   "any_F_x_U_conservative": 0.0
+  }
+ },
+ "bar_FxU": 0.9,
+ "extended_sensitivity": {
+  "extra_banked_fit_tids_not_in_survivor_population": [
+   "1caeab9d",
+   "3194b014",
+   "3d6c6e23",
+   "4acc7107",
+   "604001fa",
+   "694f12f3",
+   "6a1e5592",
+   "6df30ad6",
+   "760b3cac",
+   "7d1f7ee8",
+   "8dae5dfc",
+   "9110e3c5",
+   "9565186b",
+   "a61f2674",
+   "e9afcf9a"
+  ],
+  "extra_n": 15,
+  "accepted_in_later_lanes": [],
+  "treatment": "all extra fits counted UNDECIDED for DSL terms (test unanimity never censused; fold charges do not transfer under the SS1.6 inheritance design)",
+  "U_ceiling_extended": 0.7209,
+  "F_1.0_x_U_ceiling_extended": 0.7209,
+  "F_headline_x_U_ceiling_extended": 0.6548,
+  "with_canary_6_python_fits_also_undecided": 0.7551
+ },
+ "per_class_secondary": {
+  "anatomy_population_note": "Q/L/R/F/S/M/C/T/P/G classes are defined only on the 19 spent-draw creation deaths (CREATION_WALL_ANATOMY_2026-11-07.md SS1); no pool-scale classifier for these classes exists in the substrate, and none was built (Stage 0 builds no machinery). Pool-scale creation mass is therefore reported in the substrate's own construction classification beside the per-class rows.",
+  "per_class": {
+   "Q": {
+    "spent_draw_death_tasks": 5,
+    "tids": [
+     "67b4a34d",
+     "e66aafb8",
+     "9110e3c5",
+     "5d2a5c43",
+     "e3497940"
+    ],
+    "of_which_in_spent_union_312": 3,
+    "banked_fits_in_class": 1,
+    "certified_solves_in_class": 0
+   },
+   "L": {
+    "spent_draw_death_tasks": 3,
+    "tids": [
+     "55783887",
+     "5c0a986e",
+     "41e4d17e"
+    ],
+    "of_which_in_spent_union_312": 2,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "R": {
+    "spent_draw_death_tasks": 3,
+    "tids": [
+     "27f8ce4f",
+     "363442ee",
+     "85fa5666"
+    ],
+    "of_which_in_spent_union_312": 3,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "F": {
+    "spent_draw_death_tasks": 2,
+    "tids": [
+     "08573cc6",
+     "694f12f3"
+    ],
+    "of_which_in_spent_union_312": 1,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "S": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "af22c60d"
+    ],
+    "of_which_in_spent_union_312": 0,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "M": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "760b3cac"
+    ],
+    "of_which_in_spent_union_312": 1,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "C": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "3d6c6e23"
+    ],
+    "of_which_in_spent_union_312": 1,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "T": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "e9afcf9a"
+    ],
+    "of_which_in_spent_union_312": 1,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "P": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "604001fa"
+    ],
+    "of_which_in_spent_union_312": 0,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   },
+   "G": {
+    "spent_draw_death_tasks": 1,
+    "tids": [
+     "6d0160f0"
+    ],
+    "of_which_in_spent_union_312": 1,
+    "banked_fits_in_class": 0,
+    "certified_solves_in_class": 0
+   }
+  },
+  "anatomy_tasks_total": 19,
+  "pool_creation_mass_modal_account": {
+   "tasks_with_any_created_leftover": 522,
+   "tasks_with_novel_instances": 254,
+   "novel_instances": 1884,
+   "novel_class_instances": {
+    "field_patch": 914,
+    "primitive_unaddressed_color": 419,
+    "residual": 358,
+    "const_recurrent": 139,
+    "witness_tier1": 49,
+    "witness_tier2": 5
+   }
+  },
+  "training_population_spent_union": {
+   "n_ids_assembled": 312,
+   "novel_content_tasks_in_union": 80,
+   "banked_fit_tasks_in_union": 41,
+   "certified_solves_in_union": [
+    "ad38a9d0"
+   ]
+  }
+ },
+ "wall_s": 8.1
+}
