@@ -1,0 +1,10 @@
+.groq_key
+.nvidia_key
+.nvidia_api_key
+.sambanova_key
+.env
+.env.*
+approval_exam/
+__pycache__/
+*.npz
+*.zip
